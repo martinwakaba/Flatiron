@@ -4,6 +4,8 @@ import {useState, useEffect} from 'react';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import FormTransaction from './components/FormTransaction';
+import TableRowTransaction from './components/TableRowTransaction';
+import TableTransaction from './components/TableTransaction';
 
 function App() {
   return (
