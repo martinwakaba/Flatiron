@@ -91,7 +91,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: medium;
 }
 .transaction-form button:hover {
@@ -110,7 +110,7 @@
 .App .transaction-table th, td{
   border: 1px solid var(--color-info-dark);
   padding: 8px;
-  text-align: left;
+  text-align:center;
 }
 
 .transaction-table button{
