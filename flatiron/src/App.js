@@ -3,6 +3,7 @@ import './App.css';
 import {useState, useEffect} from 'react';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
+import FormTransaction from './components/FormTransaction';
 
 function App() {
   return (
