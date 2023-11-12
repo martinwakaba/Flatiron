@@ -47,7 +47,7 @@
 }
 
 .App-header {
-  background-color: var(--color-dark-variant);
+  background-color: var(--color-primary);
   min-height: 8vh;
   align-items: center;
 
