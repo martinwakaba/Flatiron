@@ -36,7 +36,7 @@
     font-size: 0.88rem;
     user-select: none;
     overflow-x: hidden;
-    color: var(--color-dark);
+    color: var(--color-dark-variant);
     background-color: var(--color-background);
 }
 .app h1{
@@ -47,13 +47,13 @@
 }
 
 .App-header {
-  background-color: var(--color-dark-variant-2);
+  background-color: var(--color-dark-variant);
   min-height: 8vh;
   align-items: center;
 
   font-size: 1.3rem;
-  color: #fff; /* Text color for the header */
-  padding: 20px;
+  color: #fff; 
+  padding: 10px;
   position: relative;
 }
 
@@ -62,11 +62,14 @@
   top: 30%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-} 
+}
+.App-header h1:hover{
+  color: var(--color-warning);
+}
 
 
 .transaction-form {
-  background-color: var(--color-dark-variant-2);
+  background-color: var(--color-dark-variant);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -84,7 +87,7 @@
   background-color: var(--color-primary);
   cursor: pointer;
   margin: 5px;
-  color: #0f0c16;
+  color: var(--color-background);
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -92,7 +95,7 @@
   font-size: medium;
 }
 .transaction-form button:hover {
-  background-color: var(--color-warning);
+  background-color: var(--color-dark-variant);
 
 }
 .App .transaction-table{
@@ -113,11 +116,17 @@
 .transaction-table button{
   cursor: pointer;
   background-color: var(--color-info-dark);
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 
 }
 
 .transaction-table button:hover{
-  background-color: var(--color-danger) ;
+  background-color: var(--color-dark-variant-2) ;
 
 }
 
