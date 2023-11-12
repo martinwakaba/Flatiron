@@ -40,7 +40,7 @@ function App() {
       <Header />
       <TableTransaction transactions={filteredTransactions} onDelete={deleteTransaction} />
       <SearchBar onSearch={setSearchTerm} />
-      <TransactionForm onSubmit={addTransaction} />
+      <FormTransaction onSubmit={addTransaction} />
     </div>
   );
 }
