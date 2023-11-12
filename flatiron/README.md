@@ -1,3 +1,59 @@
+# Flatiron Bank App
+
+Flatiron Bank App is a React-based web application designed for tracking your transactions. This project provides a hands-on experience for learning the fundamentals of React, allowing users to manage and visualize their financial transactions with ease.
+
+## Features
+
+- **Transaction Overview:** View all your transactions in a tabular format, including essential details such as date, description, category, and amount.
+
+- **Add New Transactions:** Easily add new transactions using a simple form that requires a description and amount.
+
+- **Search Functionality:** Utilize the search bar to filter transactions by typing a description. Only matching transactions will be displayed, making it convenient to find specific entries.
+
+- **Delete Transactions:** Remove transactions that are no longer needed, providing a flexible and user-friendly way to manage your transaction history.
+
+## License
+
+This project is open-source and available under the MIT License. Feel free to explore, modify, and adapt it to suit your needs. For more details, refer to the [LICENSE](LICENSE) file.
+
+## How to Use
+
+Follow these steps to set up and run the Flatiron Bank App on your local machine:
+
+1. Clone this repository onto your local machine using the following command:
+
+    ```bash
+    git clone https://github.com/martinwakaba/Flatiron-Bank
+    ```
+
+2. Install the necessary dependencies by running the following command within the project directory:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the application using the following command:
+
+    ```bash
+    npm start
+    ```
+
+4. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Flatiron Bank App.
+
+## Created by
+
+**Martin Wakaba**
+
+Find me on GitHub: [https://github.com/martinwakaba](https://github.com/martinwakaba)
+
+---
+
+Explore the world of Flatiron Bank App, manage your transactions effortlessly, and enjoy the journey of learning React! If you encounter any issues or have suggestions, feel free to reach out on GitHub. Happy coding!
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +124,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
