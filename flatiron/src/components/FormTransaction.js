@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+
+//function to add a new transaction from a form input to the DOM table
 function FormTransaction({onSubmit}){
     const[date, setDate] = useState('')
     const [description, setDescription] = useState('');

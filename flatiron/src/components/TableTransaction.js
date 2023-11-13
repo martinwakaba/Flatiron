@@ -1,6 +1,7 @@
 import React from "react";
 import TableRowTransaction from "./TableRowTransaction";
 
+//function to display the data from the db into a table
 function TableTransaction({transactions, onDelete}) {
     return(
     <div className="transaction-table">

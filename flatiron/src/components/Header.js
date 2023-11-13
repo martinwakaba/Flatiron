@@ -1,5 +1,5 @@
 import React from "react";
-
+//function to display the name of the bank
 function Header(){
     return(
     <div>

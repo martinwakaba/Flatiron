@@ -1,5 +1,6 @@
 import React from "react";
 
+//function to dearch for a transaction
 function SearchBar({onSearch}){
     return(
     <div className="search-bar">
