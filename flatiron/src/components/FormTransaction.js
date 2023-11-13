@@ -21,6 +21,7 @@ function FormTransaction({onSubmit}){
 return(
   <div className="transaction-form">
     <form onSubmit={handleSubmit}>
+      <h2>Add a Transaction</h2>
       <input type='date' 
       name='date' value={date} 
       placeholder='date' 

@@ -14,7 +14,7 @@ function App() {
 
 //retriving data from the db
   useEffect(() => {
-    fetch('https://my-json-server.typicode.com/martinwakaba/flatiron/transactions')
+    fetch(' http://localhost:3000/transactions')
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data);
@@ -42,9 +42,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <TableTransaction transactions={filteredTransactions} onDelete={deleteTransaction} />
-      <SearchBar onSearch={setSearchTerm} />
       <FormTransaction  onSubmit={addTransaction} />
+      <SearchBar onSearch={setSearchTerm} />
+      <TableTransaction transactions={filteredTransactions} onDelete={deleteTransaction} />
+      
+      
     </div>
   );
 }
