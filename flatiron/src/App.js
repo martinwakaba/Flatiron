@@ -14,7 +14,7 @@ function App() {
 
 //retriving data from the db
   useEffect(() => {
-    fetch('http://localhost:3000/transactions')
+    fetch('https://my-json-server.typicode.com/martinwakaba/flatiron/transactions')
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data);
