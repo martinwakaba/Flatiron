@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Flatiron/static/css/main.cbefdaac.css",
+    "main.js": "/Flatiron/static/js/main.3b860326.js",
+    "static/js/787.bad639be.chunk.js": "/Flatiron/static/js/787.bad639be.chunk.js",
+    "static/media/logo.svg": "/Flatiron/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Flatiron/index.html",
+    "main.cbefdaac.css.map": "/Flatiron/static/css/main.cbefdaac.css.map",
+    "main.3b860326.js.map": "/Flatiron/static/js/main.3b860326.js.map",
+    "787.bad639be.chunk.js.map": "/Flatiron/static/js/787.bad639be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbefdaac.css",
+    "static/js/main.3b860326.js"
+  ]
+}
